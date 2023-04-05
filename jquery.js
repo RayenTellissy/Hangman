@@ -262,7 +262,7 @@ function check(){
             })
             $("#check").hide()
             $("#field").hide()
-            $("p").text("You Lost :(")
+            $("p").text("You Lost :( the word was "+word)
             var go=$("<button id='go'onclick='reset()'>GO AGAIN</button>").get(0)
                     start.append(go)
                     $("#go").css({
